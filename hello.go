@@ -6,7 +6,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "<html><head><title>Greetings to the world</title></head><body><h1>Hello from the Jenkins X golang http example v3</h1></body></html>\n")
+	fmt.Fprintf(w, "<html><head><title>Greetings to the world</title></head><body><h1>Hello from the Jenkins X golang http example v Platform Upgrade </h1></body></html>\n")
 }
 
 func main() {
